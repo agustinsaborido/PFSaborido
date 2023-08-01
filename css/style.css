@@ -23,7 +23,7 @@
     
     header{
     display: flex;
-    height: 100px;
+    height: 150px;
     width: 100%;
     background-color:black; 
     position:fixed;
@@ -40,9 +40,11 @@
     }
     
     header a{
-    padding: 15px;
+    padding: 5px;
     text-decoration: none;
-    color: rgb(255, 255, 255);   
+    color: rgb(255, 255, 255);
+    
+      
     }
     header a:hover{
     color: #beaf87;
@@ -529,6 +531,12 @@
     padding-bottom: 100px;
 }
 
+header ul{
+    padding: 10px;
+}
+header a{
+    font-size: 10px;
+}
 
 }
 
