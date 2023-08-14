@@ -8,15 +8,14 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <title>Vender</title>
 <link rel="shortcut icon" href="../assets/img/SP.png" type="image/png">
-<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/nuevo.css">
 </head>
 <body>
     <header>        
         <nav>
-            
-                <div class="logo">
+            <div class="logo">
                 <img src="../assets/img/SP.png" alt="logoinmobiliaria" class="logo-img">
-                </div>
+            </div>
             <ul>    
                 <li><a href="../index.html">inicio</a></li>
                 <li><a href="../pages/comprar.html" >comprar</a></li>
@@ -28,43 +27,45 @@
     </header>
 <main class="container-fluid">
 <!--primera sección-->
-    <div class="row">
-        <div class="col-sm-12 col-xs-6">
-            <section class="">
+<div class="row">
+    <div class="col-6">  
+            <section class="quierovender">
                 <form>
-                    <h2>Vende tu propiedad</h2>
-                    <p>Le brindamos un servicio profesional de tasación de inmuebles a
+                    <h2 class="form_title">Vende tu propiedad</h2>
+                    <p class="form_paragraph">Le brindamos un servicio profesional de tasación de inmuebles a
                     cargo de profesionales matriculados y experimentados en el área</p>
                     <div class="input-group">
                         <label for="name">Nombre</label>
-                        <input type="text" name="name" id="name" placeholder="Name">
+                        <input type="text" name="name" id="name" placeholder="Nombre">
 
                         <label for="phone">Teléfono</label>
-                        <input type="tel" name="phone" id="phone" placeholder="Telefono">
+                        <input type="tel" name="phone" id="phone" placeholder="Teléfono">
 
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" placeholder="Email">
 
                         <label for="localidadprovincia">Localidad/Provincia</label>
-                        <input type="localprov" name="localprov" id="localprov" placeholder="Localidadprovincia">
+                        <input type="localprov" name="localprov" id="localprov" placeholder="Localidad/Provincia">
 
                         <label for="tipodepropiedad">Tipo de propiedad</label>
-                        <input type="tipopropiedad" name="tipopropiedad" id="tipopropiedad" placeholder="tipodepropiedad">
+                        <input type="tipopropiedad" name="tipopropiedad" id="tipopropiedad" placeholder="Tipo de propiedad">
 
                         <label for="comentario">Comentario</label>
                         <textarea name="comentario" id="comentario" cols="30" rows="5" placeholder="Comentario"></textarea>
 
                         <input class="btn" type="submit" value="Enviar">
-
-                </form>                                
-            </section>
+                    </div>
+                    </form>
+        <div class="col-6">
+            <img src="../assets/img/quierovender2.webp" alt="quierovender">
+        </section>
+    </div> 
+</div>  
             
-               
-        </div>
-    </div>    
+                
 <!--segunda sección-->
     <div class="row">
-        <div class="col-sm-12 col-xs6">
+        <div class="col-sm-12 col-xs6 col-12">
             <section class="compromiso">
             <article>
             <h4>Nuestro compromiso es prestar un servicio eficaz que permita ofrecer soluciones inmobiliarias de calidad, garantizando clientes de por vida.</h4>
@@ -75,22 +76,22 @@
 <!--tercera sección-->
     <div class="row">
         <div class="col-12 col-xs-6"> 
-            <section id="porqueelegirnos">
+            <section class="ofrecersupropiedad">
             <div class="container">
             <h2>Al ofrecer su propiedad</h2>
             <ul>
-            <li>✔️Verificamos que toda la documentación de su
+            <li>- Verificamos que toda la documentación de su
                 inmueble esté en orden y que no haya trámites que
                 completar para evitar contratiempos en la venta o
                 alquiler</li>
-            <li>✔️Asesoría de los trámites y costos fiscales derivados
+            <li>- Asesoría de los trámites y costos fiscales derivados
                 de su operación de venta o alquiler</li>
-            <li>✔️Realizamos un Análisis de Mercado Comparativo
+            <li>- Realizamos un Análisis de Mercado Comparativo
                 basado en la oferta actual y la demanda histórica de
                 inmuebles en su zona, para determinar con toda
                 precisión el precio óptimo de venta o alquiler de su
                 propiedad</li>
-            <li>✔️Estableceremos un plan específico de mercadeo
+            <li>- Estableceremos un plan específico de mercadeo
                 para la venta o alquiler de su propiedad</li>
             </ul>
             </section>
