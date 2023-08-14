@@ -18,12 +18,12 @@
     
     body{
         margin: 0;
-        
+        background-color:#E6E7E8
     }
     
     header{
     display: flex;
-    height: 150px;
+    height: 100px;
     width: 100%;
     background-color:black; 
     position:fixed;
@@ -40,25 +40,39 @@
     }
     
     header a{
-    padding: 5px;
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    
+        padding: 5px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        
       
     }
     header a:hover{
     color: #beaf87;
     }
     
+
+
+    header ul{
+        display: flex;
+        text-align: center;
+    }
+    
        
     .logo img{
         height: 300px;
         width: 300px;
-        margin-left: 40px; 
-        margin-right: 200px;
-        margin-top: 20px;
+        margin-top: 30px;
         vertical-align:middle;
+        cursor: pointer;
+
         }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 10%;
+    }
     
     button{
     font-weight: bold;
@@ -128,7 +142,6 @@
     display: block;
 
 }
-
 }
 
 
@@ -539,4 +552,3 @@ header a{
 }
 
 }
-
