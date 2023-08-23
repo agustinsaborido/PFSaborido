@@ -15,26 +15,53 @@
 <!--final de etiquetas SEO-->
 </head>
 <body>
-    <header>
-        <nav>                       
-            <div class="logo">
-            <img src="./assets/img/SP.png" alt="logoinmobiliaria" class="logo-img">
-            </div>
-            <ul>    
-                <li><a href="./index.html">inicio</a></li>
-                <li><a href="./pages/comprar.html" >comprar</a></li>
-                <li><a href="./pages/alquilar.html">alquilar</a></li>
-                <li><a href="./pages/vender.html">vender</a></li>
-                <li><a href="./pages/equipo.html">Unite al equipo</a></li>
+<!--encabezado-->
+<!--INICIO MENU HAMBURGUESA-->
+<header class="header">
+    <nav class="navbar navbar-dark bg">
+      <div class="container">
+        <div class="logoinmobiliaria">
+        <img src="./assets/img/SP.png" alt="logoinmobiliaria" class="logo-img">
+        </div>
+
+          <button class="menu_hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./pages/inicio.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/comprar.html">Comprar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/alquilar.html">Alquilar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/equipo.html">Unite al Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/vender.html">Vender</a>
+              </li>
+              
             </ul>
-        </nav>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+              <button class="btn btn-dark" type="submit"><img src="./assets/img/icon-search.png" alt="search"></button>
+            </form>
+          </div>
+        </div>
+      </nav>
     </header>
+      <!--FINAL MENU HABURGUESA-->
+<!--final de encabezado-->
 <main class="container-fluid">
 <!--primera sección-->
     <div class="row">
         <div class="col-sm-12 col-xs6">
         <section id="hero" class="primerasección">
-        <h1>Tu sueño <br>comienza hoy</h1><br>
+        <h1>Tu sueño <br>comienza hoy</h1>
         <form action="file:///C:/Users/agust/OneDrive/Escritorio/preentrega2saborido/pages/comprar.html">
         <button>VER PROPIEDADES</button>
         </form>
@@ -110,10 +137,35 @@
 </div>
 </main>
     
-<footer>
-    <div class="container">
-    <h5>&copy; Saborido Propiedades</h5>
-    </div>
+<footer class="pie-pagina">
+    <div class="grupo-1">
+        <div class="box">
+            <figure>
+                <a href="#">
+                    <img src="./assets/img/SP.png" alt="logosp">
+                </a>
+            </figure>
+        </div>
+        <div class="box">
+            <h2>Llamanos</h2>
+            <div class="telefono">
+                <p>(221) 523-8844</p><br>
+                <p>info@saboridopropiedades.com</p>
+            </div>
+        </div>
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook">F</a>
+                <a href="#" class="fa fa-instagram">I</a>
+                <a href="#" class="fa fa-twitter">T</a>
+                <a href="#" class="fa fa-youtube">Y</a>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small> &copy; 2023-Saborido Propiedades</small>
+        </div>
+    </div>  
 </footer>
 </body>
 </html>

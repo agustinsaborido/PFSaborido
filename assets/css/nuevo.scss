@@ -1,0 +1,955 @@
+/*Variables*/
+$primari-color: black;
+$secundari-color: #beaf87;
+
+*{
+    box-sizing: border-box;
+    }
+    h1{font-size: 80px;}
+    h2{font-size: 30px;}
+    h3{font-size: 30px;}
+    h4{font-size: 20px;}
+    h5{font-size: 15px;}
+    p{font-size: 20px;
+    font-family:"barlow";
+    font-weight: 300;
+    color: #A19276}
+    ul{list-style: none;}
+    li{font-size: 20px;}
+    a{font-size: 15px;}
+
+/*Inicio de Navegación*/
+nav{
+    display: flex;
+    align-items: center;
+    text-align:center;
+        .list{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        } 
+       
+        .btn-dark{
+        background-color:$secundari-color;
+        border-color: $secundari-color;
+        &:hover{
+            background-color: #a79a77;
+           
+        }
+        }
+        .logo-img{
+        padding: 10px;
+        margin: 5px;
+        vertical-align:middle;
+        cursor: pointer;
+        }
+}
+.navbar {
+    padding-top: 0px;
+        li{
+        padding: 5px;
+        text-align: center;
+            a{
+            color: white;
+            font-weight: 700;
+            &:hover{color: $secundari-color;}
+            }
+        }        
+    }
+
+/*Final de navegación*/
+
+/*Body*/
+body{
+    margin: 0;
+    background-color:$primari-color;
+    font-family: "barlow";
+    width: 100%;
+    }
+button{
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0);
+    box-shadow: 2px 2px 10px rgba(0,0,0);
+    color:white;
+    background-color: $secundari-color;
+    font-family: "barlow";
+    font-weight: 700;
+        &:hover{
+        background-color: #A19276;  
+        }
+    }
+
+/*Primera sección-pág.1*/    
+#hero{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+            
+        )
+        ,url(../assets/img/family.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    border-top: solid 2px $secundari-color;
+    h1{
+            color:white;
+            margin-top: 300px;
+            font-family:"barlow";
+            font-weight: 700;
+            text-align: center;
+            
+        }
+    form{
+        text-align: center;
+    }
+    .primerasección {
+            overflow:hidden;
+            }
+}
+
+
+
+
+#equipo{
+    background-color:white;
+    text-align: center;
+    padding: 20px 12px;
+
+    h2{
+        font-family: "barlow";
+        font-weight: 700;
+        color:$secundari-color;
+        font-size: 35px;
+        }
+    
+    p{
+        color:$secundari-color;
+    }
+}
+
+
+
+
+#oportunidades{
+    background-color: black;
+    text-align: center;
+    justify-content: space-around;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    height: 600px;
+    h3{
+        color:white;
+        font-family: "barlow";
+        font-weight: 700;
+        margin-top: 80px;
+        font-size: 60px;
+        }
+    h4{
+        color: white;
+        padding: 40px;
+        font-family: "barlow";
+        font-weight: 700;  
+        }
+    .container{
+        display: flex;
+        justify-content: center;
+        }
+
+    .cartas{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+            
+    .carta1{
+        background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ) 
+        ,url(../assets/img/carta1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 300px;
+        text-align:center;
+        overflow: auto;
+        margin-right: 20px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        }
+            
+    .carta2{
+        background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ) 
+        ,url(../assets/img/carta2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 300px;
+        text-align:center;
+        overflow: auto;
+        margin-right: 20px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        }
+    .carta3{
+        background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ) 
+        ,url(../assets/img/carta3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 300px;
+        text-align:center;
+        overflow: auto;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        }
+        
+        
+    }
+
+
+
+
+#porqueelegirnos .container{
+    text-align: center;
+    padding: 100px 12px;
+    h2{
+        margin-bottom: 80px;
+        margin-top: 5px;
+        color:$secundari-color;
+        font-family: "barlow";
+        font-weight: 700;
+        }
+    li{
+        margin: 20px 0px;
+        color:$secundari-color;
+        font-family: "barlow";
+        font-weight: 300;
+        }
+
+}
+
+
+
+footer{
+    background-color: $primari-color;
+    font-family: "barlow";
+    font-weight: 100;
+    width: 100%;
+    height: 100px;    
+    
+    h5{
+        color: $secundari-color;
+    }
+    .container{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    
+    h6{
+        color: $secundari-color;
+        font-family: "barlow";
+        font-weight: 100;
+        font-size: 30px;
+        justify-content: left;
+        align-items: center;
+    }
+    
+}
+
+
+@font-face {
+    font-family: "barlow";
+    src: url("../assets/fonts/Barlow-Light.ttf");
+    font-weight: 300;
+    }
+    
+@font-face {
+    font-family: "barlow";
+    src: url("../assets/fonts/Barlow-Bold.ttf");
+    font-weight: 700;
+    }
+    
+@font-face {
+    font-family: "barlow";
+    src: url("../assets/fonts/Barlow-Thin.ttf");
+    font-weight: 100;
+    }
+
+
+
+
+
+@media(max-width: 576px){
+    #grid{
+        display: block;
+        width: 100%;
+        }
+        
+    .grid-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        padding: 0 0 10px;
+    
+    }
+    #nuestraspropiedades{
+            padding-bottom: 100px;
+            width: 100%;
+            h2{
+                margin: 80px;
+            }
+        }
+        
+    header{ 
+        ul{
+            padding: 10px;
+        }
+        a{
+            font-size: 10px;
+        }
+        }
+}
+
+
+
+/*comprar*/
+
+.secciones{
+    border: 2px solid black;
+    }
+
+#grid {
+    display: grid;
+    grid-template-areas:
+    "empren oportu"
+    "empren ni"
+    "np np";
+    grid-template-rows: 600px 600px 700px;
+    grid-template-columns: 40% auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-top: 0px;
+    background-color:$primari-color;
+
+}
+
+
+#emprendimientos{
+    grid-area: empren;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)        
+        ) 
+    ,url(../assets/img/emprendimientos.jpg) ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+
+    h1{
+        font-size: 40px;
+        font-family: "barlow";
+        font-weight: 700;
+        color: white;
+        margin-top: 60%;
+    }   
+}
+
+
+#oportu{
+    grid-area: oportu;
+    background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)        
+        ) 
+    , url(../assets/img/oportu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    h2{
+        color: white;
+        font-family: "barlow";
+        font-weight: 700;
+        font-size: 40px;
+        margin-top: 30%;
+    }
+
+}
+
+
+#nuevosingresos{
+    grid-area: ni;
+    background-image: 
+    linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    )
+    ,url(../assets/img/nuevosingresos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    
+    h3{
+        color: white;
+        font-family: "barlow";
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: 30%;
+    }
+
+}
+
+
+
+#nuestraspropiedades{
+    grid-area: np;
+    text-align: center; 
+    justify-content: center;
+    background-color: black;
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: auto;
+    gap: 10px;
+    height: 200px;
+    align-content: center;
+    justify-content: space-around;
+    text-align: center;
+    
+
+    }
+
+.item1{
+    background-image: 
+    linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    )
+    ,url(../assets/img/casa.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 300px;
+    }
+
+
+.item2{
+    background-image: 
+    linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    )
+    ,url(../assets/img/depto.jpeg);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 300px;
+    }
+
+.item3{
+    background-image: 
+    linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    )
+    ,url(../assets/img/lote.jpg);
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 300px;
+    }
+
+
+
+h2{
+    margin-bottom: 200px;
+    color: white;
+    font-family: "barlow";
+    font-weight: 300;
+    font-size: 80px;
+    }
+
+h4{
+    color: white;
+    font-family: "barlow";
+    font-weight: 300;
+    font-size: 30px;
+    }
+}
+
+
+
+
+@media(max-width: 576px){
+
+
+header{
+    ul{
+    padding: 10px;
+    }
+    a{
+    font-size: 10px;
+    }
+    }
+
+
+
+
+#grid{
+    display: block;
+    width: 100%;
+}
+
+.grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding: 0 0 10px;
+}
+
+ 
+#nuestraspropiedades{
+    padding-bottom: 100px;
+    h2{
+        margin: 80px;
+    }
+}
+
+
+
+
+}
+
+
+
+
+
+
+/*alquiler*/
+
+
+.nuevosingresos{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+            
+        )
+        ,url(../assets/img/nuevosingresosalquiler.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    border-top: solid 2px $secundari-color;
+    h1{
+            color:white;
+            margin-top: 300px;
+            font-family:"barlow";
+            font-weight: 700;
+            text-align: center;
+            
+        }
+    form{
+        text-align: center;
+    }
+    
+        overflow:hidden;
+        
+}
+
+
+
+
+.quieroalquilar{
+    
+    text-align: center;
+    padding: 50px 12px;
+    background-color:$secundari-color;
+    height: 200px;
+
+    h2{
+        font-family: "barlow";
+        font-weight: 300;
+        color:white;
+        font-size: 35px;
+    }
+
+    button{
+        color: $secundari-color;
+        background-color: white;
+    }
+    
+
+}
+
+
+
+
+.nuestraspropiedades{
+    background-color: black;
+    text-align: center;
+    justify-content: space-around;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    height: 600px;
+    h3{
+        color:white;
+        font-family: "barlow";
+        font-weight: 700;
+        margin-top: 80px;
+        font-size: 60px;
+        }
+    h4{
+        color: white;
+        padding: 40px;
+        font-family: "barlow";
+        font-weight: 700;  
+        }
+    .container{
+        display: flex;
+        justify-content: center;
+        }
+
+    .cartas{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+            
+    .carta1{
+        background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ) 
+        ,url(../assets/img/carta1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 300px;
+        text-align:center;
+        overflow: auto;
+        margin-right: 20px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        }
+            
+    .carta2{
+        background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ) 
+        ,url(../assets/img/carta2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 300px;
+        text-align:center;
+        overflow: auto;
+        margin-right: 20px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        }
+    .carta3{
+        background-image:linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ) 
+        ,url(../assets/img/carta3.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 300px;
+        text-align:center;
+        overflow: auto;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        }
+        
+        
+    }
+
+
+
+
+.alquilarconnosotros{
+    
+    justify-content: center;
+    text-align: center;
+    padding: 100px 12px;
+    h2{
+        margin-bottom: 80px;
+        margin-top: 5px;
+        color:$secundari-color;
+        font-family: "barlow";
+        font-weight: 300;
+        font-size: 50px;
+        
+        }
+    li{
+        margin: 20px 0px;
+        color:$secundari-color;
+        font-family: "barlow";
+        font-weight: 300;
+        
+        }
+
+}
+
+
+
+
+
+/*vender*/
+
+
+.quierovender{   
+    display: flex;
+    width: 100%;
+  
+form{
+    background-color: $primari-color;
+    margin: auto;
+    
+    padding: 200px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.form_title{
+    font-size: 100px;
+    margin-bottom: 50px;
+    color: $secundari-color;
+    font-family: "barlow";
+    font-weight: 700;
+    
+}
+.form_paragraph{
+    font-family: "barlow";
+    font-weight: 300;
+    font-size: 15px;
+    color: $secundari-color;
+    margin-bottom: 100px;
+
+}
+
+.input-group{
+        
+        display: grid;
+        flex-direction: column;
+        text-align: left;
+        gap: 7px;
+
+
+        font-size: 1rem;
+        padding: .6em .3em;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid var($primari-color);
+        font-family: "barlow";
+        position:static;
+
+
+    }
+
+    label{
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+        color: $secundari-color;
+        top: 0;
+        left: 5px;
+    }
+
+.btn{
+    background-color:$secundari-color;
+    color: white;
+    font-family: "barlow";
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 15px 0;
+    border:none;
+    border-radius: .5em;
+    margin-top: 10px;
+
+}
+img{
+    height: 1295px;
+    width: auto;
+    }
+}
+
+
+.compromiso{
+    background-color: $primari-color;
+    margin:200px 0px;
+
+    h4{
+        color: white;
+        cursor: pointer;
+        font-family: "barlow";
+        font-weight: 100;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+
+
+.ofrecersupropiedad{
+
+    justify-content: center;
+    text-align: center;
+    color: $secundari-color;
+    margin-top: 200px;
+    font-family: "barlow";
+    margin-bottom: 200px;
+    
+    h2{
+    font-weight: 300;
+    font-size: 70px;
+    cursor: pointer;
+    margin-bottom: 50px;
+    }
+
+    li{
+    margin: 30px 0px;
+    cursor: pointer;
+    font-weight: 100;
+    }
+
+
+}
+
+
+
+/*equipo*/
+
+
+.formaparte{
+    background-color:$primari-color;
+    padding-top: 150px;
+    justify-content: center;
+    text-align: center;
+    h1{
+        color: $secundari-color;
+        font-family: "barlow";
+        font-weight: 300;
+        font-size: 80px;
+        cursor:pointer;
+    }
+
+img{
+    height: 900px;
+    width: 100%;
+}
+}
+
+.compromiso{
+    margin: 50px 0px;
+    h4{
+        font-size: 20px;
+       font-weight: 300;
+    
+    }
+}
+
+
+.datospersonales{
+    
+    text-align: center;
+    h2{
+        font-size: 50px;
+        margin-bottom: 50px;
+        color: $secundari-color;
+        font-family: "barlow";
+        font-weight: 700;
+    }
+    form{
+        background-color: $primari-color;        
+        padding: 200px 30px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    }
+
+    .input-group{
+        
+        display: grid;
+        flex-direction: column;
+        text-align: left;
+        gap: 7px;
+        font-size: 1rem;
+        padding: .6em .3em;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid var($primari-color);
+        font-family: "barlow";
+        position:static;
+    }
+
+    label{
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+        color: $secundari-color;
+        top: 0;
+        left: 5px;
+    }
+    .btn{
+        background-color:$secundari-color;
+        color: white;
+        font-family: "barlow";
+        font-weight: 700;
+        font-size: 1rem;
+        padding: 15px 0;
+        border:none;
+        border-radius: .5em;
+        margin-top: 10px;
+        &:hover{
+            color: $primari-color;
+        }
+    
+    }
+}
