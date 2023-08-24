@@ -109,7 +109,7 @@ button:hover {
 
 /*Primera sección-pág.1*/
 #hero {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/family.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/family-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -747,4 +747,78 @@ footer h6 {
 }
 .datospersonales .btn:hover {
   color: black;
+}
+
+@media (max-width: 390px) {
+  /* tercera sección,pág.1*/
+  #oportunidades {
+    width: auto;
+  }
+  #oportunidades h3 {
+    font-size: 38px;
+  }
+  #oportunidades h4 {
+    font-size: 15px;
+  }
+  /*primera sección, pág.2*/
+  #emprendimientos {
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+  }
+  /*segunda sección, pág.2*/
+  #oportu {
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+  }
+  /*tercera sección, pág.2*/
+  #nuevosingresos {
+    margin-bottom: 30px;
+    padding-bottom: 100px;
+  }
+  /* cuarta sección,pág.2*/
+  #nuestraspropiedades {
+    width: auto;
+  }
+  #nuestraspropiedades h4 {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 60px;
+  }
+  #nuestraspropiedades .grid-container {
+    display: block;
+    height: auto;
+  }
+  #nuestraspropiedades h2 {
+    font-size: 50px;
+    padding-top: 60px;
+  }
+  /*segunda sección, pág.3*/
+  .quieroalquilar {
+    height: auto;
+  }
+  /*primera sección, pág.4*/
+  .formaparte {
+    padding-top: 40px;
+  }
+  .formaparte h1 {
+    font-size: 60px;
+  }
+  .formaparte img {
+    width: 100%;
+    height: 400px;
+  }
+  /*primera sección, pág.5*/
+  .quierovender {
+    display: block;
+    width: 100%;
+  }
+  .quierovender .form_title {
+    font-size: 70px;
+  }
+  .quierovender img {
+    width: 380px;
+    height: 350px;
+  }
 }/*# sourceMappingURL=nuevo.css.map */

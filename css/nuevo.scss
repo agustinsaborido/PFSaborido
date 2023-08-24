@@ -89,7 +89,7 @@ button{
         rgba(0,0,0,0.5)
             
         )
-        ,url(../assets/img/family.jpg);
+        ,url(../assets/img/family-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -953,3 +953,103 @@ img{
     
     }
 }
+
+
+@media(max-width: 390px){
+
+/* tercera sección,pág.1*/
+#oportunidades{
+    width: auto;
+        h3{
+            font-size: 38px;
+        }
+        h4{
+            font-size: 15px;      
+        }
+}
+
+/*primera sección, pág.2*/
+#emprendimientos{
+    margin-bottom: 30px;
+    padding-bottom: 100px;  
+    
+}
+/*segunda sección, pág.2*/
+#oportu{
+margin-bottom: 30px;
+padding-bottom: 100px; 
+}
+/*tercera sección, pág.2*/
+#nuevosingresos{
+margin-bottom: 30px;
+padding-bottom: 100px;    
+}   
+/* cuarta sección,pág.2*/
+    #nuestraspropiedades{
+        width: auto;
+        h4{
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 60px;
+        }
+    .grid-container{
+        display: block;
+        height: auto;
+    }
+     h2{
+        font-size: 50px;
+        padding-top: 60px;
+        
+        }
+    }
+
+/*segunda sección, pág.3*/
+.quieroalquilar{
+    height: auto;
+}
+
+
+/*primera sección, pág.4*/
+
+.formaparte{
+    padding-top: 40px;
+
+    h1{
+    font-size: 60px;
+    }
+    img{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+
+/*primera sección, pág.5*/
+
+.quierovender{
+    display: block;
+    width: 100%;
+   
+    .form_title{
+            font-size: 70px;
+            
+        }
+
+
+    img{
+        width:380px;
+        height: 350px;
+    }
+    }
+
+
+
+
+
+}
+
+
+
+
