@@ -44,6 +44,13 @@ a {
 }
 
 /*Inicio de Navegación*/
+header {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  height: auto;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -225,6 +232,7 @@ button:hover {
   color: #beaf87;
   font-family: "barlow";
   font-weight: 700;
+  font-size: 40px;
 }
 #porqueelegirnos .container li {
   margin: 20px 0px;
@@ -233,30 +241,51 @@ button:hover {
   font-weight: 300;
 }
 
+/*inicio de footer*/
 footer {
+  background-color: black;
   background-color: black;
   font-family: "barlow";
   font-weight: 100;
   width: 100%;
-  height: 100px;
+  height: 400px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 footer h5 {
   color: #beaf87;
-}
-footer .container {
-  display: flex;
-  justify-content: end;
-  align-items: center;
+  cursor: pointer;
 }
 footer h6 {
   color: #beaf87;
   font-family: "barlow";
-  font-weight: 100;
+  font-weight: 300;
   font-size: 30px;
   justify-content: left;
   align-items: center;
+  margin-bottom: 35px;
+  margin-top: 60px;
+  font-size: 50px;
+  cursor: pointer;
+}
+footer .iconos {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}
+footer .footer-row {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+footer .footer-links {
+  margin-top: 30px;
+  cursor: pointer;
 }
 
+/*final del footer*/
+/*fonts*/
 @font-face {
   font-family: "barlow";
   src: url("../assets/fonts/Barlow-Light.ttf");
@@ -272,6 +301,7 @@ footer h6 {
   src: url("../assets/fonts/Barlow-Thin.ttf");
   font-weight: 100;
 }
+/*final de fonts*/
 @media (max-width: 576px) {
   #grid {
     display: block;
@@ -588,6 +618,7 @@ footer h6 {
   color: #beaf87;
   font-family: "barlow";
   font-weight: 700;
+  cursor: pointer;
 }
 .quierovender .form_paragraph {
   font-family: "barlow";
@@ -595,6 +626,7 @@ footer h6 {
   font-size: 15px;
   color: #beaf87;
   margin-bottom: 100px;
+  cursor: pointer;
 }
 .quierovender .input-group {
   display: grid;
@@ -822,4 +854,9 @@ footer h6 {
     width: 380px;
     height: 350px;
   }
-}/*# sourceMappingURL=nuevo.css.map */
+  /*footer*/
+  footer .footer-row {
+    display: block;
+  }
+}
+/*final de responsive para celular*//*# sourceMappingURL=nuevo.css.map */

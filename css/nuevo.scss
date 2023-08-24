@@ -19,6 +19,12 @@ $secundari-color: #beaf87;
     a{font-size: 15px;}
 
 /*Inicio de Navegación*/
+header{
+    background-color: $primari-color;
+    position: fixed;
+    width: 100%;
+    height: auto;
+}
 nav{
     display: flex;
     align-items: center;
@@ -236,6 +242,7 @@ button{
         color:$secundari-color;
         font-family: "barlow";
         font-weight: 700;
+        font-size: 40px;
         }
     li{
         margin: 20px 0px;
@@ -247,35 +254,61 @@ button{
 }
 
 
-
+/*inicio de footer*/
 footer{
+    background-color: $primari-color;
     background-color: $primari-color;
     font-family: "barlow";
     font-weight: 100;
     width: 100%;
-    height: 100px;    
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
     
     h5{
         color: $secundari-color;
-    }
-    .container{
-        display: flex;
-        justify-content: end;
-        align-items: center;
+        cursor: pointer;
+    
     }
     
     h6{
         color: $secundari-color;
         font-family: "barlow";
-        font-weight: 100;
+        font-weight: 300;
         font-size: 30px;
         justify-content: left;
         align-items: center;
+        margin-bottom: 35px;
+        margin-top: 60px;
+        font-size: 50px;
+        cursor: pointer;
     }
-    
+
+.iconos{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.footer-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.footer-links{
+    margin-top: 30px;
+    cursor: pointer;
 }
 
 
+}
+/*final del footer*/
+
+
+
+/*fonts*/
 @font-face {
     font-family: "barlow";
     src: url("../assets/fonts/Barlow-Light.ttf");
@@ -293,7 +326,7 @@ footer{
     src: url("../assets/fonts/Barlow-Thin.ttf");
     font-weight: 100;
     }
-
+/*final de fonts*/
 
 
 
@@ -761,6 +794,7 @@ form{
     color: $secundari-color;
     font-family: "barlow";
     font-weight: 700;
+    cursor: pointer;
     
 }
 .form_paragraph{
@@ -769,6 +803,7 @@ form{
     font-size: 15px;
     color: $secundari-color;
     margin-bottom: 100px;
+    cursor: pointer;
 
 }
 
@@ -1046,12 +1081,15 @@ padding-bottom: 100px;
     }
     }
 
+/*footer*/
 
-
-
-
+footer{
+    .footer-row{
+        display: block;
+    }
 }
-
+}
+/*final de responsive para celular*/
 
 
 
