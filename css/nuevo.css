@@ -116,6 +116,7 @@ button:hover {
 
 /*Primera sección-pág.1*/
 #hero {
+  margin-top: 100px;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/family-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -401,6 +402,7 @@ footer .footer-links {
   text-align: center;
   justify-content: center;
   background-color: black;
+  margin-top: 100px;
 }
 #nuestraspropiedades .grid-container {
   display: grid;
@@ -418,6 +420,7 @@ footer .footer-links {
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
+  padding-top: 70px;
 }
 #nuestraspropiedades .item2 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/depto.jpeg);
@@ -425,6 +428,7 @@ footer .footer-links {
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
+  padding-top: 70px;
 }
 #nuestraspropiedades .item3 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/lote.jpg);
@@ -432,6 +436,7 @@ footer .footer-links {
   background-size: cover;
   background-repeat: no-repeat;
   height: 300px;
+  padding-top: 70px;
 }
 #nuestraspropiedades h2 {
   margin-bottom: 200px;
@@ -439,6 +444,7 @@ footer .footer-links {
   font-family: "barlow";
   font-weight: 300;
   font-size: 80px;
+  margin-bottom: 70px;
 }
 #nuestraspropiedades h4 {
   color: white;
@@ -785,7 +791,7 @@ footer .footer-links {
 @media (max-width: 415px) {
   /* tercera sección,pág.1*/
   #oportunidades {
-    width: auto;
+    width: 100%;
   }
   #oportunidades h3 {
     font-size: 38px;
